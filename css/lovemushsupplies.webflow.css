@@ -712,6 +712,7 @@ body {
   .main-div {
     grid-column-gap: 14vw;
     grid-row-gap: 14vw;
+    height: 100svh;
   }
 
   .logo-hold {
