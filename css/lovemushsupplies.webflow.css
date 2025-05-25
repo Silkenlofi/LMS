@@ -140,6 +140,11 @@ body {
   line-height: 1.2;
 }
 
+.text-block-2.email {
+  font-size: .8vw;
+  font-weight: 600;
+}
+
 .button {
   color: #fff;
   text-align: center;
@@ -533,6 +538,10 @@ body {
   color: var(--_colours---drk);
 }
 
+.link-block {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 991px) {
   .main-div {
     grid-column-gap: 10vw;
@@ -745,6 +754,10 @@ body {
 
   .text-block-2 {
     font-size: 3vw;
+  }
+
+  .text-block-2.email {
+    font-size: 2vw;
   }
 
   .button.btn-76 {
